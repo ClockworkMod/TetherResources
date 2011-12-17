@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tether</string>
+    
+    <string name="usb_on_no_adb">USB debugging is not enabled.\nPlease click to enable USB debugging.</string>
+    <string name="usb_on_no_data">USB tether is running.\nPlease open the Tether app on your computer.</string>
+    <string name="usb_on">USB tether is running.</string>
+    <string name="usb_off">Please connect your phone to your computer.</string>
+    <string name="tether_disabled">USB tether is not running.\nClick to toggle.</string>
+
+    <string name="bytes">%d bytes</string>
+    <string name="kilobytes">%.3f KB</string>
+	<string name="megabytes">%.3f MB</string>
+	
+	<string name="confirm_tether_off">Are you sure you wish to turn the USB tether off?</string>
+</resources>
