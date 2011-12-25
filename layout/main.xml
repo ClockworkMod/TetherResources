@@ -2,76 +2,89 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:orientation="vertical" >
+    android:layout_centerInParent="true"
+    android:orientation="vertical"
+    android:background="@drawable/background" >
 
     <ImageView
         android:id="@+id/usb_icon"
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:maxHeight="80dp"
-        android:src="@drawable/usb_off" />
-
-    <TextView
-        android:id="@+id/usb_status"
-        style="@android:style/TextAppearance.Large"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:gravity="center_horizontal"
-        android:text="@string/usb_off" />
+        android:scaleType="center"
+        android:src="@drawable/usb_off" android:layout_weight="1" />
 
     <LinearLayout
-        android:id="@+id/data_stats"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_marginLeft="40dp"
-        android:layout_marginRight="40dp"
-        android:gravity="center_horizontal"
-        android:layout_gravity="center_horizontal"
-        android:paddingTop="10dp" >
+        android:layout_height="wrap_content" 
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/usb_status"
+            style="@android:style/TextAppearance.Large"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:minLines="3"
+            android:text="@string/usb_off" 
+            android:paddingLeft="20dp" 
+            android:paddingRight="20dp" />
 
         <LinearLayout
+            android:id="@+id/data_stats"
             android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:orientation="horizontal" >
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingTop="10dp" >
 
-            <ImageView
-                android:layout_gravity="center_vertical"
-                android:layout_width="wrap_content"
+            <LinearLayout
+                android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:src="@drawable/upload" />
+                android:orientation="horizontal" >
 
-            <TextView
-                android:id="@+id/data_sent"
-                android:layout_gravity="center_vertical"
-                android:paddingLeft="20dp"
-                style="@android:style/TextAppearance.Large"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" android:layout_weight="1" />
-        </LinearLayout>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/upload" />
 
-        <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:orientation="horizontal" >
+                <TextView
+                    android:id="@+id/data_sent"
+                    style="@android:style/TextAppearance.Large"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:paddingLeft="20dp" />
+            </LinearLayout>
 
-            <ImageView
-                android:layout_gravity="center_vertical"
-                android:layout_width="wrap_content"
+            <LinearLayout
+                android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:src="@drawable/download" />
+                android:orientation="horizontal" >
 
-            <TextView
-                android:id="@+id/data_received"
-                android:layout_gravity="center_vertical"
-                android:paddingLeft="20dp"
-                style="@android:style/TextAppearance.Large"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"  android:layout_weight="1" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/download" />
+
+                <TextView
+                    android:id="@+id/data_received"
+                    style="@android:style/TextAppearance.Large"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:paddingLeft="20dp" />
+            </LinearLayout>
         </LinearLayout>
-
     </LinearLayout>
 
 </LinearLayout>

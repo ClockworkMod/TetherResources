@@ -12,7 +12,7 @@
     <string name="kilobytes">%.3f KB</string>
 	<string name="megabytes">%.3f MB</string>
 	
-	<string name="confirm_tether_off">Are you sure you wish to turn the USB tether off?</string>
+	<string name="confirm_tether_off">Are you sure you wish to turn off USB tether?</string>
 	
 	<string name="tethering">Tethering USB connection.</string>
 </resources>
