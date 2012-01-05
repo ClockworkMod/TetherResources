@@ -30,10 +30,8 @@
 	<string name="download_complete">Download Complete</string>
 	<string name="download_complete_info">The Tether for PC installation file can be found on your SD Card in the \"ClockworkMod\" folder.\n\nYou can share this file with your computer by enabling \"USB Mass Storage\" on your phone.\n\nYou can do this by swiping down the notification area.</string>
 	
-	<string-array name="help_options">
-	    <item>Download Tether for PC</item>
-	    <item>Tether is Slow</item>
-	</string-array>
+	<string name="download_pc">Download Tether for PC</string>
+	<string name="tether_is_slow">Tether is Slow</string>
 	
-	<string name="tether_is_slow">Your USB Tether speed is limited to the speed of the slowest USB peripheral attached.\n\nIt is recommended that you attach your phone directly to your PC, away from other USB peripheral connections. Disconnect any older and unused USB peripherals that may inhibit your speed.</string>
+	<string name="tether_is_slow_info">Your USB Tether speed is limited to the speed of the slowest USB peripheral attached.\n\nIt is recommended that you attach your phone directly to your PC, away from other USB peripheral connections. Disconnect any older and unused USB peripherals that may inhibit your speed.</string>
 </resources>
