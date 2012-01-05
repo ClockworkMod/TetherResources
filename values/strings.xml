@@ -34,4 +34,8 @@
 	<string name="tether_is_slow">Tether is Slow</string>
 	
 	<string name="tether_is_slow_info">Your USB Tether speed is limited to the speed of the slowest USB peripheral attached.\n\nIt is recommended that you attach your phone directly to your PC, away from other USB peripheral connections. Disconnect any older and unused USB peripherals that may inhibit your speed.</string>
+	
+	<string name="tether_version">Tether Version</string>
+	<string name="tether_pc_outdated">The Tether app on your PC is outdated. Please update it!</string>
+	<string name="tether_android_outdated">The Tether app on your phone is outdated. Please update it from the Android Market!</string>
 </resources>
