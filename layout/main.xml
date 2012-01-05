@@ -3,20 +3,22 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:layout_centerInParent="true"
-    android:orientation="vertical"
-    android:background="@drawable/background" >
+    android:background="@drawable/background"
+    android:orientation="vertical" >
 
     <ImageView
         android:id="@+id/usb_icon"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
         android:scaleType="center"
-        android:src="@drawable/usb_off" android:layout_weight="1" />
+        android:src="@drawable/usb_off" />
 
     <LinearLayout
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content" 
+        android:layout_height="210dp"
+        android:layout_weight="1"
         android:orientation="vertical" >
 
         <TextView
@@ -27,9 +29,35 @@
             android:layout_gravity="center_horizontal"
             android:gravity="center_horizontal"
             android:minLines="3"
-            android:text="@string/usb_off" 
-            android:paddingLeft="20dp" 
-            android:paddingRight="20dp" />
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/usb_off" />
+
+        <LinearLayout
+            android:id="@+id/help"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:paddingTop="40dp" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/help" />
+
+            <TextView
+                style="@android:style/TextAppearance.Large"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:paddingLeft="30dp"
+                android:text="@string/help"
+                android:visibility="gone" />
+        </LinearLayout>
 
         <LinearLayout
             android:id="@+id/data_stats"
@@ -40,7 +68,8 @@
             android:layout_marginRight="40dp"
             android:gravity="center_horizontal"
             android:orientation="vertical"
-            android:paddingTop="10dp" >
+            android:paddingTop="10dp"
+            android:visibility="gone" >
 
             <LinearLayout
                 android:layout_width="fill_parent"
@@ -59,15 +88,14 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
-                    android:layout_weight="1"
                     android:paddingLeft="30dp" />
             </LinearLayout>
 
             <LinearLayout
-                android:paddingBottom="20dp"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal" >
+                android:orientation="horizontal"
+                android:paddingBottom="20dp" >
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -81,7 +109,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
-                    android:layout_weight="1"
                     android:paddingLeft="30dp" />
             </LinearLayout>
         </LinearLayout>
