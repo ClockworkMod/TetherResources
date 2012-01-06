@@ -23,6 +23,7 @@
 	<string name="linux">Linux</string>
 	
 	<string name="downloading_tether">Downloading Tether for PC</string>
+	<string name="downloading_drivers">Downloading Drivers</string>
 	
 	<string name="error_downloading">Error Downloading</string>
 	<string name="error_downloading_info">Please verify that you have an SD Card inserted and that there is sufficient storage.</string>
