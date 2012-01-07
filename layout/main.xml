@@ -34,6 +34,36 @@
             android:text="@string/usb_off" />
 
         <LinearLayout
+            android:id="@+id/quota_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:visibility="gone"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp" >
+
+            <TextView
+                android:text="@string/daily_trial_quota"
+                android:id="@+id/quota_status"
+                style="@android:style/TextAppearance.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:padding="5dp" />
+
+            <ProgressBar
+                android:id="@+id/quota"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="10dip"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:paddingLeft="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
             android:id="@+id/help"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -72,6 +102,7 @@
             android:visibility="gone" >
 
             <LinearLayout
+                android:layout_weight="1"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal" >
@@ -92,6 +123,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:layout_weight="1"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"

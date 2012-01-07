@@ -39,4 +39,17 @@
 	<string name="tether_version">Tether Version</string>
 	<string name="tether_pc_outdated">The Tether app on your PC is outdated. Please update it!</string>
 	<string name="tether_android_outdated">The Tether app on your phone is outdated. Please update it from the Android Market!</string>
+	
+	<string name="trial_quota_exceeded">Trial Quota Exceeded</string>
+	<string name="trial_quota_exceeded_message">Your Tether daily trial quota has been exceeded.\n\nYour daily usage quota of %1$dMB will be reset in %2$d hours.\n\nBuy Tether to remove the quota and support development!</string>
+	
+	<string name="buy_tether">Buy Tether</string>
+	<string name="paypal">PayPal</string>
+	<string name="android_market_inapp">Android Market In-App</string>
+	<string name="redeem_code">Redeem Code</string>
+	<string name="payment_options">Payment Options</string>
+	<string name="purchase_thanks">Thanks for purchasing Tether!</string>
+	
+	<string name="daily_trial_quota">daily trial quota</string>
+	<string name="days_left">%d days left in trial version of tether</string>
 </resources>
