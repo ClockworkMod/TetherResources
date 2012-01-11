@@ -52,4 +52,7 @@
 	
 	<string name="daily_trial_quota">daily trial quota</string>
 	<string name="days_left">%d days left in trial version of tether</string>
+	
+	<string name="recover_purchase">Recover Purchase</string>
+	<string name="recover_options">Recover Options</string>
 </resources>

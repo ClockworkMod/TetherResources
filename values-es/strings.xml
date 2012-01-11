@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tether</string>
+    
+    <string name="usb_on_no_adb">USB debugging no esta activado.\nPor Favor precione para permitir USB debugging.</string>
+    <string name="usb_on_no_data">USB tether esta activado.\nPor favor abra la aplicacion Tether en su computadora.</string>
+    <string name="usb_on">USB tether esta activado.</string>
+    <string name="usb_off">Pof favor conecte su telefono a la computadora.</string>
+    <string name="tether_disabled">USB tether no esta activo.\nPrecione para activar.</string>
+
+    <string name="bytes">%d bytes</string>
+    <string name="kilobytes">%.3f KB</string>
+	<string name="megabytes">%.3f MB</string>
+
+	<string name="confirm_tether_off">Esta seguro que quiere desactivar USB tether?</string>
+
+	<string name="tethering">Conexión USB.</string>
+	<string name="help">Ayuda</string>
+
+	<string name="select_os">Seleccione el Sistema Operativo</string>
+	<string name="mac">Mac</string>
+	<string name="windows">Windows</string>
+	<string name="linux">Linux</string>
+
+	<string name="downloading_tether">Descargando Tether para PC</string>
+	<string name="downloading_drivers">Descargando Drivers</string>
+
+	<string name="error_downloading">Error Descargando</string>
+	<string name="error_downloading_info">Por favor, verifique que tiene una tarjeta SD insertada y que no hay suficiente espacio de almacenamiento.</string>
+
+	<string name="download_complete">Descarga Completa</string>
+	<string name="download_complete_info">El archivo de instalación de Tether para su PC esta en la tarjeta SD en el folder \"ClockworkMod\".\n\nUsted puede pasar este archivo a su computadora solo activando \"USB Mass Storage\" en su telefono.\n\nPuede hacer esto deslinzando hacia abajo el área de notificación.</string> 
+
+	<string name="download_pc">Descarga Tether para PC</string>
+	<string name="tether_is_slow">Tether esta lento</string>
+
+	<string name="tether_is_slow_info">Su velocidad de Tether está limitada a la velocidad del más lenta de los periféricos USB conectados.\n\nSe recomienda conectar el teléfono directamente a su PC, lejos de otras conexiones de periféricos USB. Desconecte todos los mayores y sin usar periféricos USB que pueden inhibir la velocidad.</string>
+
+	<string name="tether_version">Versión de Tether</string>
+	<string name="tether_pc_outdated">La aplicación de Tether en su PC no está actualizada. Por favor, actualice!</string>
+	<string name="tether_android_outdated">La aplicación de Tether en su PC no está actualizada. Por favor, actualice en el Android Market!</string>
+
+	<string name="trial_quota_exceeded">Cuota de prueba se ha excedido</string>
+	<string name="trial_quota_exceeded_message">Su cuota con la prueba de Tether del día se ha superado.\n\nSu cuota de uso diario de %1$dMB se reiniciará en %2$d horas.\n\n\Compre Tether para eliminar la cuota y apoyar el desarrollo!</string>
+
+	<string name="buy_tether">Compre Tether</string>
+	<string name="paypal">PayPal</string>
+	<string name="android_market_inapp">Android Market In-App</string>
+	<string name="redeem_code">Canjear Código</string>
+	<string name="payment_options">Opciones de Pago</string>
+	<string name="purchase_thanks">Gracias por comprar Tether!</string>
+
+	<string name="daily_trial_quota">daily trial quota</string>
+	<string name="days_left">%d days left in trial version of tether</string>
+</resources>
