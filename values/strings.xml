@@ -55,4 +55,15 @@
 	
 	<string name="recover_purchase">Recover Purchase</string>
 	<string name="recover_options">Recover Options</string>
+
+	<string name="tether_will_not_connect">Tether will not Connect</string>
+	<string name="tether_connect_info">If Tether for PC detects your phone, but does not connect, this may be due to firewall or anti-virus software running on your PC.\n\nPlease disable your anti-virus or firewall software to try fixing Tether. If that works, add a firewall exception allowing the entire Tether installation folder.</string>
+	<string name="support">Support</string>
+	<string name="support_info">Having problems? Please read the instructions on the Market for common troubleshooting issues.\n\nIf they do not work, feel free to email koush@clockworkmod.com for more support. Please include the full log from the Tether for PC application in your email.</string>
+	<string name="email">Email</string>
+	<string name="market">Market</string>
+	
+	<string name="tether_successful">Tethering Successful</string>
+	<string name="tether_successful_info">It looks like your Tether connection is working! I\'d appreciate it if you gave ClockworkMod a great review!\n\nNot working? Check out the troubleshooting section on the Market for resolving common problems.</string>
+	<string name="rate_tether">Rate Tether</string>
 </resources>
