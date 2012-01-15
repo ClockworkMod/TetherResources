@@ -34,11 +34,11 @@
 	<string name="download_pc">Tether für PC herunterladen</string>
 	<string name="tether_is_slow">Tethering ist langsam</string>s
 	
-	<string name="tether_is_slow_info">Ihre USB Tetheringgeschwindigkeit ist begrenzt auf die Geschwindigkeit des langsamst zwischengeschalteten USB Gerätes.\n\nEs wird empfohlen, dass Sie Ihr Mobilger�t direkt an Ihrem Computer anschliessen, und kein Gerät (z.B. ein USB Hub) dazwischen schliessen.</string>
+	<string name="tether_is_slow_info">Ihre USB Tetheringgeschwindigkeit ist begrenzt auf die Geschwindigkeit des langsamst zwischengeschalteten USB Gerätes.\n\nEs wird empfohlen, dass Sie Ihr Mobilgerät direkt an Ihrem Computer anschliessen, und kein Gerät (z.B. ein USB Hub) dazwischen schliessen.</string>
 	
 	<string name="tether_version">Tether Version</string>
 	<string name="tether_pc_outdated">Die Tether App auf Ihrem Computer ist veraltet. Bitten updaten Sie!</string>
-	<string name="tether_android_outdated">Die Tether App auf Ihrem Mobilger�t ist veraltet. Bitte updaten Sie diese, vom Android Market!</string>
+	<string name="tether_android_outdated">Die Tether App auf Ihrem Mobilgerät ist veraltet. Bitte updaten Sie diese, vom Android Market!</string>
 	
 	<string name="trial_quota_exceeded">Tägliches Demolimit erreicht</string>
 	<string name="trial_quota_exceeded_message">Ihr tägliches Demolimit wurde erreicht.\n\nIhre tägliche Begrenzung von %1$dMB wird in %2$d Stunden zurückgesetzt werden.\n\nKaufen Sie Tether, um das Limit zu entfernen und die Entwicklung zu unterstützen!</string>
