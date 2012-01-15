@@ -5,7 +5,7 @@
     <string name="usb_on_no_adb">USB-Debugging ist nicht aktiviert.\nKlicken Sie hier um USB-Debugging zu aktivieren.</string>
     <string name="usb_on_no_data">USB Tethering ist gestartet.\nBitte starten Sie die Tether App auf Ihrem Computer.</string>
     <string name="usb_on">USB Tethering ist gestartet.</string>
-    <string name="usb_off">Bitte verbinen Sie Ihr Mobilgerät jetzt mit Ihrem Computer.</string>
+    <string name="usb_off">Bitte verbinen Sie Ihr MobilgerÃ¤t jetzt mit Ihrem Computer.</string>
     <string name="tether_disabled">USB Tethering ist nicht gestartet.\nKlicken zum Starten.</string>
 
     <string name="bytes">%d Bytes</string>
@@ -17,31 +17,31 @@
 	<string name="tethering">Tethering USB Verbindung.</string>
 	<string name="help">Hilfe</string>
 		
-	<string name="select_os">Betriebssystem auswählen</string>
+	<string name="select_os">Betriebssystem auswÃ¤hlen</string>
 	<string name="mac">Mac</string>
 	<string name="windows">Windows</string>
 	<string name="linux">Linux</string>
 	
-	<string name="downloading_tether">Tether für PC herunterladen</string>
+	<string name="downloading_tether">Tether fÃ¼r PC herunterladen</string>
 	<string name="downloading_drivers">Treiber herunterladen</string>
 	
 	<string name="error_downloading">Fehler beim Downloaden</string>
-	<string name="error_downloading_info">Bitte stellen Sie sicher, dass eine SD Karte mit genügend Speicherplatz eingelegt ist.</string>
+	<string name="error_downloading_info">Bitte stellen Sie sicher, dass eine SD Karte mit genÃ¼gend Speicherplatz eingelegt ist.</string>
 
 	<string name="download_complete">Download komplett</string>
-	<string name="download_complete_info">Die \"Tether für PC\" Installationsdateien finden Sie auf Ihrer SD Karte im \"ClockworkMod\" Ordner.\n\nSie können diese Datei mit Ihrem Computer austauschen, durch das aktivieren von \"USB Massenspeicher\" auf Ihrem Mobilgerät.\n\nYSie können dies tun, indem Sie die Notifikationsbar herunterziehen.</string>
+	<string name="download_complete_info">Die \"Tether fÃ¼r PC\" Installationsdateien finden Sie auf Ihrer SD Karte im \"ClockworkMod\" Ordner.\n\nSie kÃ¶nnen diese Datei mit Ihrem Computer austauschen, durch das aktivieren von \"USB Massenspeicher\" auf Ihrem MobilgerÃ¤t.\n\nYSie kÃ¶nnen dies tun, indem Sie die Notifikationsbar herunterziehen.</string>
 	
-	<string name="download_pc">Tether für PC herunterladen</string>
+	<string name="download_pc">Tether fÃ¼r PC herunterladen</string>
 	<string name="tether_is_slow">Tethering ist langsam</string>s
 	
-	<string name="tether_is_slow_info">Ihre USB Tetheringgeschwindigkeit ist begrenzt auf die Geschwindigkeit des langsamst zwischengeschalteten USB Gerätes.\n\nEs wird empfohlen, dass Sie Ihr Mobilgerät direkt an Ihrem Computer anschliessen, und kein Gerät (z.B. ein USB Hub) dazwischen schliessen.</string>
+	<string name="tether_is_slow_info">Ihre USB Tetheringgeschwindigkeit ist begrenzt auf die Geschwindigkeit des langsamst zwischengeschalteten USB GerÃ¤tes.\n\nEs wird empfohlen, dass Sie Ihr Mobilgerï¿½t direkt an Ihrem Computer anschliessen, und kein GerÃ¤t (z.B. ein USB Hub) dazwischen schliessen.</string>
 	
 	<string name="tether_version">Tether Version</string>
 	<string name="tether_pc_outdated">Die Tether App auf Ihrem Computer ist veraltet. Bitten updaten Sie!</string>
-	<string name="tether_android_outdated">Die Tether App auf Ihrem Mobilgerät ist veraltet. Bitte updaten Sie diese, vom Android Market!</string>
+	<string name="tether_android_outdated">Die Tether App auf Ihrem Mobilgerï¿½t ist veraltet. Bitte updaten Sie diese, vom Android Market!</string>
 	
-	<string name="trial_quota_exceeded">Tägliches Demolimit erreicht</string>
-	<string name="trial_quota_exceeded_message">Ihre tägliche Demolimit wurde erreicht.\n\nIhre tägliche Begrenzung von %1$dMB wird in %2$d Stunden zurückgesetzt werden.\n\nKaufen Sie Tether, um das Limit zu entfernen und die Entwicklung zu unterstützen!</string>
+	<string name="trial_quota_exceeded">TÃ¤gliches Demolimit erreicht</string>
+	<string name="trial_quota_exceeded_message">Ihr tÃ¤gliches Demolimit wurde erreicht.\n\nIhre tÃ¤gliche Begrenzung von %1$dMB wird in %2$d Stunden zurÃ¼ckgesetzt werden.\n\nKaufen Sie Tether, um das Limit zu entfernen und die Entwicklung zu unterstÃ¼tzen!</string>
 	
 	<string name="buy_tether">Tether kaufen</string>
 	<string name="paypal">PayPal</string>
@@ -50,20 +50,20 @@
 	<string name="payment_options">Zahlungsvarianten</string>
 	<string name="purchase_thanks">Danke, dass Sie Tether gekauft haben!</string>
 	
-	<string name="daily_trial_quota">Tägliche Demolimite</string>
-	<string name="days_left">Tether kann noch %d Tage als Demoversion benutzt werden.</string>
+	<string name="daily_trial_quota">TÃ¤gliche Demolimite</string>
+	<string name="days_left">Tether kann noch %d Tage als Demoversion eingesetzt werden.</string>
 	
 	<string name="recover_purchase">Kauf wiederherstellen</string>
 	<string name="recover_options">Optionen wiederherstellen</string>
 
 	<string name="tether_will_not_connect">Tether stellt keine Verbindung her.</string>
-	<string name="tether_connect_info">Falls \"Tether für PC\"  Ihr Mobilgerät erkennt, aber keine Verbindung herstellt, könnte dieser Fehler durch eine Firewall oder Antivirussoftware verursacht werden.\n\nVersuchen Sie das deaktivieren Ihrer Antivirussoftware oder Firewall um das Problem möglicherweise zu beheben. Falls dies funktioniert, erlauben Sie in Ihrer Firewall den gesamten Tetherinstallationsordner eine Netzwerkverbindung herzzstellen.</string>
+	<string name="tether_connect_info">Falls \"Tether fÃ¼r PC\"  Ihr MobilgerÃ¤t erkennt, aber keine Verbindung herstellt, kÃ¶nnte dieser Fehler durch eine Firewall oder Antivirussoftware verursacht werden.\n\nVersuchen Sie das deaktivieren Ihrer Antivirussoftware oder Firewall um das Problem mÃ¶glicherweise zu beheben. Falls dies funktioniert, erlauben Sie in Ihrer Firewall den gesamten Tetherinstallationsordner eine Netzwerkverbindung herzustellen.</string>
 	<string name="support">Support</string>
-	<string name="support_info">Haben Sie Probleme? Bitte lesen Sie im Android Market sorgfältig den Troubleshooting Bereich durch.\n\nFalls dies nicht hilft, dürfen Sie gerne eine E-Mail an koush@clockworkmod.com für weiteren Support senden. Bitte senden Sie den gesamten Log ihrer \"Tether für PC\" Installation mit.</string>
+	<string name="support_info">Haben Sie Probleme? Bitte lesen Sie im Android Market sorgfÃ¤ltig den Troubleshooting Bereich durch.\n\nFalls dies nicht hilft, dÃ¼rfen Sie gerne eine E-Mail an koush@clockworkmod.com um weiteren Support zu erhalten. Bitte senden Sie den gesamten Log ihrer \"Tether fÃ¼r PC\" Installation mit.</string>
 	<string name="email">Email</string>
 	<string name="market">Market</string>
 	
 	<string name="tether_successful">Tethering erfolgreich</string>
-	<string name="tether_successful_info">Es sieht so aus, als ob die Tetheringverbindung erfolgreich gestartet worden ist! Ich würde es begrüssen, wenn Sie ClockworkMod eine gute Bewertung geben würden!\n\nTethering funktioniert nicht? Schauen Sie sich, den Troubleshooting Bereich im Android Market an, um häufig auftretende Probleme zu beheben.</string>
+	<string name="tether_successful_info">Es sieht so aus, als ob die Tetheringverbindung erfolgreich gestartet worden ist! Ich wÃ¼rde es begrÃ¼ssen, wenn Sie ClockworkMod eine gute Bewertung geben wÃ¼rden!\n\nTethering funktioniert nicht? Schauen Sie sich, den Troubleshooting Bereich im Android Market an, um hÃ¤ufig auftretende Probleme zu beheben.</string>
 	<string name="rate_tether">Tether bewerten</string>
 </resources>
