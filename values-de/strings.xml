@@ -5,7 +5,7 @@
     <string name="usb_on_no_adb">USB-Debugging ist nicht aktiviert.\nKlicken Sie hier um USB-Debugging zu aktivieren.</string>
     <string name="usb_on_no_data">USB Tethering ist gestartet.\nBitte starten Sie die Tether App auf Ihrem Computer.</string>
     <string name="usb_on">USB Tethering ist gestartet.</string>
-    <string name="usb_off">Bitte verbinen Sie Ihr Mobilgerät jetzt mit Ihrem Computer.</string>
+    <string name="usb_off">Bitte verbinden Sie Ihr Mobilgerät jetzt mit Ihrem Computer.</string>
     <string name="tether_disabled">USB Tethering ist nicht gestartet.\nKlicken zum Starten.</string>
 
     <string name="bytes">%d Bytes</string>
