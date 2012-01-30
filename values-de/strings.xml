@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tether</string>
+    
+    <string name="usb_on_no_adb">USB-Debugging ist nicht aktiviert.\nKlicken Sie hier um USB-Debugging zu aktivieren.</string>
+    <string name="usb_on_no_data">USB Tethering ist gestartet.\nBitte starten Sie die Tether App auf Ihrem Computer.</string>
+    <string name="usb_on">USB Tethering ist gestartet.</string>
+    <string name="usb_off">Bitte verbinden Sie Ihr Mobilgerät jetzt mit Ihrem Computer.</string>
+    <string name="tether_disabled">USB Tethering ist nicht gestartet.\nKlicken zum Starten.</string>
+
+    <string name="bytes">%d Bytes</string>
+    <string name="kilobytes">%.3f KB</string>
+	<string name="megabytes">%.3f MB</string>
+	
+	<string name="confirm_tether_off">Sind Sie sicher, dass Sie das USB Tethering beenden wollen?</string>
+	
+	<string name="tethering">Tethering USB Verbindung.</string>
+	<string name="help">Hilfe</string>
+		
+	<string name="select_os">Betriebssystem auswählen</string>
+	<string name="mac">Mac</string>
+	<string name="windows">Windows</string>
+	<string name="linux">Linux</string>
+	
+	<string name="downloading_tether">Tether für PC herunterladen</string>
+	<string name="downloading_drivers">Treiber herunterladen</string>
+	
+	<string name="error_downloading">Fehler beim Downloaden</string>
+	<string name="error_downloading_info">Bitte stellen Sie sicher, dass eine SD Karte mit genügend Speicherplatz eingelegt ist.</string>
+
+	<string name="download_complete">Download komplett</string>
+	<string name="download_complete_info">Die \"Tether für PC\" Installationsdateien finden Sie auf Ihrer SD Karte im \"ClockworkMod\" Ordner.\n\nSie können diese Datei mit Ihrem Computer austauschen, durch das aktivieren von \"USB Massenspeicher\" auf Ihrem Mobilgerät.\n\nYSie können dies tun, indem Sie die Notifikationsbar herunterziehen.</string>
+	
+	<string name="download_pc">Tether für PC herunterladen</string>
+	<string name="tether_is_slow">Tethering ist langsam</string>s
+	
+	<string name="tether_is_slow_info">Ihre USB Tetheringgeschwindigkeit ist begrenzt auf die Geschwindigkeit des langsamst zwischengeschalteten USB Gerätes.\n\nEs wird empfohlen, dass Sie Ihr Mobilgerät direkt an Ihrem Computer anschliessen, und kein Gerät (z.B. ein USB Hub) dazwischen schliessen.</string>
+	
+	<string name="tether_version">Tether Version</string>
+	<string name="tether_pc_outdated">Die Tether App auf Ihrem Computer ist veraltet. Bitten updaten Sie!</string>
+	<string name="tether_android_outdated">Die Tether App auf Ihrem Mobilgerät ist veraltet. Bitte updaten Sie diese, vom Android Market!</string>
+	
+	<string name="trial_quota_exceeded">Tägliches Demolimit erreicht</string>
+	<string name="trial_quota_exceeded_message">Ihr tägliches Demolimit wurde erreicht.\n\nIhre tägliche Begrenzung von %1$dMB wird in %2$d Stunden zurückgesetzt werden.\n\nKaufen Sie Tether, um das Limit zu entfernen und die Entwicklung zu unterstützen!</string>
+	
+	<string name="buy_tether">Tether kaufen</string>
+	<string name="paypal">PayPal</string>
+	<string name="android_market_inapp">Android Market In-App</string>
+	<string name="redeem_code">Redeem Code</string>
+	<string name="payment_options">Zahlungsvarianten</string>
+	<string name="purchase_thanks">Danke, dass Sie Tether gekauft haben!</string>
+	
+	<string name="daily_trial_quota">Tägliche Demolimite</string>
+	<string name="days_left">Tether kann noch %d Tage als Demoversion eingesetzt werden.</string>
+	
+	<string name="recover_purchase">Kauf wiederherstellen</string>
+	<string name="recover_options">Optionen wiederherstellen</string>
+
+	<string name="tether_will_not_connect">Tether stellt keine Verbindung her.</string>
+	<string name="tether_connect_info">Falls \"Tether für PC\"  Ihr Mobilgerät erkennt, aber keine Verbindung herstellt, könnte dieser Fehler durch eine Firewall oder Antivirussoftware verursacht werden.\n\nVersuchen Sie das deaktivieren Ihrer Antivirussoftware oder Firewall um das Problem möglicherweise zu beheben. Falls dies funktioniert, erlauben Sie in Ihrer Firewall den gesamten Tetherinstallationsordner eine Netzwerkverbindung herzustellen.</string>
+	<string name="support">Support</string>
+	<string name="support_info">Haben Sie Probleme? Bitte lesen Sie im Android Market sorgfältig den Troubleshooting Bereich durch.\n\nFalls dies nicht hilft, dürfen Sie gerne eine E-Mail an koush@clockworkmod.com um weiteren Support zu erhalten. Bitte senden Sie den gesamten Log ihrer \"Tether für PC\" Installation mit.</string>
+	<string name="email">Email</string>
+	<string name="market">Market</string>
+	
+	<string name="tether_successful">Tethering erfolgreich</string>
+	<string name="tether_successful_info">Es sieht so aus, als ob die Tetheringverbindung erfolgreich gestartet worden ist! Ich würde es begrüssen, wenn Sie ClockworkMod eine gute Bewertung geben würden!\n\nTethering funktioniert nicht? Schauen Sie sich, den Troubleshooting Bereich im Android Market an, um häufig auftretende Probleme zu beheben.</string>
+	<string name="rate_tether">Tether bewerten</string>
+</resources>
