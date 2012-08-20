@@ -66,4 +66,6 @@
 	<string name="tether_successful">Tethering Successful</string>
 	<string name="tether_successful_info">It looks like your Tether connection is working! I\'d appreciate it if you gave ClockworkMod a great review!\n\nNot working? Check out the troubleshooting section on the Market for resolving common problems.</string>
 	<string name="rate_tether">Rate Tether</string>
+	
+	<string name="amazon">Amazon</string>
 </resources>
