@@ -32,7 +32,7 @@
 	<string name="download_complete_info">Die \"Tether für PC\" Installationsdateien finden Sie auf Ihrer SD Karte im \"ClockworkMod\" Ordner.\n\nSie können diese Datei mit Ihrem Computer austauschen, durch das aktivieren von \"USB Massenspeicher\" auf Ihrem Mobilgerät.\n\nYSie können dies tun, indem Sie die Notifikationsbar herunterziehen.</string>
 	
 	<string name="download_pc">Tether für PC herunterladen</string>
-	<string name="tether_is_slow">Tethering ist langsam</string>s
+	<string name="tether_is_slow">Tethering ist langsam</string>
 	
 	<string name="tether_is_slow_info">Ihre USB Tetheringgeschwindigkeit ist begrenzt auf die Geschwindigkeit des langsamst zwischengeschalteten USB Gerätes.\n\nEs wird empfohlen, dass Sie Ihr Mobilgerät direkt an Ihrem Computer anschliessen, und kein Gerät (z.B. ein USB Hub) dazwischen schliessen.</string>
 	
